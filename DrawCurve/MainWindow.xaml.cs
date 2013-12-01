@@ -173,8 +173,6 @@ namespace DrawCurve
 
         void CalcAndDrawCurve(QuadraticHermiteCurve qhc, PointCollection pointList)
         {
-            
-
             lineSegments.Clear();
             this.MainCanvas.Children.Remove(curve);
 
